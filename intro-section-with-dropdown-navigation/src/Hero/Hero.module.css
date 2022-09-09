@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+.hero-div {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+.leftside-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heroText-section {
+  margin-top: 5em;
+}
+
+.h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  color: hsl(0, 0%, 8%);
+}
+
+.btn {
+  width: 10em;
+  height: 3em;
+  outline: none;
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'Epilogue', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 98%);
+  border-radius: 12px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+.p {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 22px;
+  margin: 3em 0;
+  color: hsl(0, 0%, 41%);
+}
+
+.client-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-client {
+  width: 114px;
+  height: 20px;
+}
+
+.second-client {
+  width: 73px;
+  height: 36px;
+}
+
+.third-client {
+  width: 90px;
+  height: 20px;
+}
+
+.fourth-client {
+  width: 83px;
+  height: 24px;
+}
+
+.heroImg {
+  width: 450px;
+  height: 550px;
+}
+
+@media(min-width: 1700px){
+  .hero-div{
+    margin-top: 6em;
+  }
+  .h2{
+    font-size: 5rem;
+  }
+  .p {
+    font-size: 1.2rem;
+  }
+  .btn{
+    font-size: 1rem;
+  }
+  .heroImg {
+    width: 550px;
+    height: 650px;
+  }
+}
+@media(min-width: 1900px){
+  .hero-div{
+    margin-top: 7em;
+  }
+  .h2{
+    font-size: 5.5rem;
+  }
+  .p {
+    font-size: 1.3rem;
+  }
+  .btn{
+    font-size: 1.1rem;
+  }
+}
+
+@media(min-width: 2000px) {
+   .hero-div{
+    margin-top: 8em;
+  }
+  .h2{
+    font-size: 6rem;
+  }
+  .p {
+    font-size: 1.4rem;
+  }
+  .btn{
+    font-size: 1.2rem;
+  }
+  .heroImg {
+    width: 650px;
+    height: 750px;
+  }
+}
